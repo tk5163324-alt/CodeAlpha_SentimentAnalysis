@@ -1,0 +1,31 @@
+Review,Sentiment,Sentiment_Score,Predicted_Sentiment
+The product is excellent and works perfectly.,Positive,0.836,Positive
+I am very happy with the quality.,Positive,0.6115,Positive
+"Amazing product, totally worth the money.",Positive,0.7178,Positive
+Fast delivery and great packaging.,Positive,0.6249,Positive
+The quality is good and I would recommend it.,Positive,0.6597,Positive
+I love this product. It is fantastic.,Positive,0.8316,Positive
+Very useful and easy to use.,Positive,0.7474,Positive
+The product exceeded my expectations.,Positive,0.0,Neutral
+Good value for money.,Positive,0.6486,Positive
+Excellent customer service and product.,Positive,0.5719,Positive
+"The product is okay, but nothing special.",Neutral,-0.3479,Negative
+It works as expected.,Neutral,0.0,Neutral
+Average quality for the price.,Neutral,0.0,Neutral
+The product is neither good nor bad.,Neutral,-0.5824,Negative
+Delivery was normal and the product is fine.,Neutral,0.2023,Positive
+It is an ordinary product.,Neutral,0.0,Neutral
+The quality is acceptable.,Neutral,0.3182,Positive
+"Not very impressive, but it works.",Neutral,-0.2405,Negative
+The product meets basic requirements.,Neutral,0.0,Neutral
+"Overall, it is average.",Neutral,0.0,Neutral
+Very poor quality and stopped working quickly.,Negative,-0.6478,Negative
+I am disappointed with this product.,Negative,-0.4767,Negative
+The product arrived damaged.,Negative,-0.4404,Negative
+Worst purchase I have made.,Negative,-0.6249,Negative
+The quality is terrible.,Negative,-0.4767,Negative
+Delivery was very late.,Negative,0.0,Neutral
+I would not recommend this product.,Negative,-0.2755,Negative
+The product does not work properly.,Negative,0.0,Neutral
+Waste of money.,Negative,-0.4215,Negative
+Very bad experience with this product.,Negative,-0.5849,Negative

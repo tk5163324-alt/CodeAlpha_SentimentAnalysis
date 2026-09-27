@@ -1,0 +1,49 @@
+import pandas as pd
+from pathlib import Path
+
+# Sample customer reviews
+reviews = [
+    ("The product is excellent and works perfectly.", "Positive"),
+    ("I am very happy with the quality.", "Positive"),
+    ("Amazing product, totally worth the money.", "Positive"),
+    ("Fast delivery and great packaging.", "Positive"),
+    ("The quality is good and I would recommend it.", "Positive"),
+    ("I love this product. It is fantastic.", "Positive"),
+    ("Very useful and easy to use.", "Positive"),
+    ("The product exceeded my expectations.", "Positive"),
+    ("Good value for money.", "Positive"),
+    ("Excellent customer service and product.", "Positive"),
+
+    ("The product is okay, but nothing special.", "Neutral"),
+    ("It works as expected.", "Neutral"),
+    ("Average quality for the price.", "Neutral"),
+    ("The product is neither good nor bad.", "Neutral"),
+    ("Delivery was normal and the product is fine.", "Neutral"),
+    ("It is an ordinary product.", "Neutral"),
+    ("The quality is acceptable.", "Neutral"),
+    ("Not very impressive, but it works.", "Neutral"),
+    ("The product meets basic requirements.", "Neutral"),
+    ("Overall, it is average.", "Neutral"),
+
+    ("Very poor quality and stopped working quickly.", "Negative"),
+    ("I am disappointed with this product.", "Negative"),
+    ("The product arrived damaged.", "Negative"),
+    ("Worst purchase I have made.", "Negative"),
+    ("The quality is terrible.", "Negative"),
+    ("Delivery was very late.", "Negative"),
+    ("I would not recommend this product.", "Negative"),
+    ("The product does not work properly.", "Negative"),
+    ("Waste of money.", "Negative"),
+    ("Very bad experience with this product.", "Negative"),
+]
+
+# Create DataFrame
+df = pd.DataFrame(reviews, columns=["Review", "Sentiment"])
+
+# Save dataset
+output_path = Path("data/reviews.csv")
+df.to_csv(output_path, index=False)
+
+print("Dataset created successfully!")
+print(f"Saved to: {output_path}")
+print(f"Total reviews: {len(df)}")
